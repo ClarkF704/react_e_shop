@@ -1,0 +1,23 @@
+{
+  "name": "react_e_shop",
+  "version": "1.0.0",
+  "description": "MERN STACK",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarkF704/react_e_shop.git"
+  },
+  "author": "Clark F",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClarkF704/react_e_shop/issues"
+  },
+  "homepage": "https://github.com/ClarkF704/react_e_shop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
