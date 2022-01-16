@@ -147,7 +147,7 @@ export const updateUserProfile = (user) => async (dispatch, getState) => {
       type: USER_LOGIN_SUCCESS,
       payload: data
   })
-
+  // may or may not need this local storage below
   localStorage.setItem('userInfo', JSON.stringify(data))
 
   } catch (error) {
